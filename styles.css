@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background-color: #f8f8f8;
+}
+h1 {
+  font-size: 4rem;
+  margin: 15px 20px;
+  color: #484848;
+  font-family: "Arvo", cursive;
+  text-shadow: 5px 1px 3px #8aa9c1;
+}
+.instructions {
+  margin: 5px 10px 12px;
+  font-family: "Arvo", cursive;
+  color: #484848;
+}
+.c {
+  background-image: url("images/cat.png");
+  background-size: cover;
+}
+.d {
+  background-image: url("images/dog.jpg");
+  background-size: cover;
+}
+.b {
+  background-image: url("images/bird.jpg");
+  background-size: cover;
+}
+.l {
+  background-image: url("images/lion.jpg");
+  background-size: cover;
+}
+.e {
+  background-image: url("images/elephant.jpg");
+  background-size: cover;
+}
+.s {
+  background-image: url("images/sheep.jpg");
+  background-size: cover;
+}
+.m {
+  background-image: url("images/monkey.jpg");
+  background-size: cover;
+}
+.animal {
+  outline: none;
+  border: 10px solid #8aa9c1;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2.3;
+  font-weight: 900;
+  color: #8aa9c1;
+  text-shadow: 3px 2px 2px #3d3d3d;
+  border-radius: 15px;
+  height: 150px;
+  text-align: center;
+  background-color: white;
+}
+footer {
+  margin-top: 10px;
+  color: #8aa9c1;
+  font-family: sans-serif;
+}
+/* Custom column width for large screens to fit 5 buttons in a row */
+@media (min-width: 1200px) {
+  .custom-col {
+    flex: 0 0 auto;
+    width: 19.2%; /* Approx 5 buttons per row */
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .w-100 {
+    width: 230px !important;
+  }
+}
